@@ -1,20 +1,19 @@
 
-
-**Ecommerce Platform**
+## [Ecommerce Platform](https://github.com/iamtgiri/Ecommerce_oop)
 
 A modular Python-based e-commerce platform that simulates an online shopping experience. This project covers essential features of an e-commerce system, including product management, order processing, customer management, and payment handling. It demonstrates modular programming concepts and can serve as a foundation for more complex applications.
 
-**Table of Contents**
-1. Project Overview
-2. Features
-3. Project Structure
-4. Installation
-5. Usage
-6. Examples
-7. Contributing
-8. License
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Examples](#examples)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-**Project Overview**
+## Project Overview
 
 This project is organized as a Python package with separate modules representing different components of an e-commerce system, including:
 - Products for managing inventory.
@@ -22,14 +21,14 @@ This project is organized as a Python package with separate modules representing
 - Customers for customer information and order placement.
 - Payments for processing payments and managing transactions.
 
-**Features**
+## Features
 
 - Product Management: Create, update, and manage products with pricing and stock details.
 - Order Processing: Calculate order totals, manage customer orders, and handle product stock updates.
 - Customer Management: Track customer information and their orders.
 - Payment Processing: Simulate payment transactions and verify payment status.
 
-**Project Structure**
+## Project Structure
 
 The code is organized into sub-packages representing each component. Below is the folder structure:
 
@@ -52,7 +51,7 @@ Ecommerce/
 └── README.md                 # Project documentation
 ```
 
-**Installation**
+## Installation
 
 To install and set up the project locally:
 
@@ -69,7 +68,7 @@ To install and set up the project locally:
    python -m Ecommerce
    ```
 
-**Usage**
+## Usage
 
 This example demonstrates a typical usage scenario where a customer places an order and processes payment.
 
@@ -104,7 +103,7 @@ This example demonstrates a typical usage scenario where a customer places an or
    payment_success = process_payment(total_cost, payment_info)
    ```
 
-**Examples**
+## Examples
 
 Here’s a complete example:
 
@@ -135,7 +134,7 @@ else:
     print("Payment failed.")
 ```
 
-**Contributing**
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -145,6 +144,6 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a Pull Request.
 
-**License**
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
